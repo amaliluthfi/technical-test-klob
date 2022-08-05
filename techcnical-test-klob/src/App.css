@@ -2,7 +2,9 @@
 
 .App {
   text-align: center;
+  font-family: 'Roboto';
 }
+
 
 .header {
   height: 80px;
@@ -15,19 +17,24 @@
   color: white;
 }
 
+.title{
+  color: #143F6B;
+}
+
 .logo {
   color: white;
 }
 
 .menu {
-  height: 500px;
-  display: flex;
-  align-items: center;
+  /* height: 500px; */
+  display: grid;
   padding: 30px;
+  justify-content: center;
 }
 
 .jobCard {
   padding: 20px;
+  margin: 8px;
   height: 300px;
   width: 200px;
   background-color: white;
@@ -46,15 +53,67 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.descBox{
+  outline: #FEB139 solid 3px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sendButton{
+  height: 40px;
+  color: white;
+  background-color: #FEB139;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  width: 90%;
+  border-radius: 8px;
+}
+
+.sendButtonDisable{
+  height: 40px;
+  color: white;
+  background-color: gray;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  width: 90%;
+  border-radius: 8px;
+}
+
+.sendButtonCard{
+  height: 40px;
+  color: white;
+  background-color: #FEB139;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  width: 90%;
+  border-radius: 8px;
+  width: 180px;
+}
+
+.sendButtonCardDisable{
+  height: 40px;
+  color: white;
+  background-color: gray;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  width: 90%;
+  border-radius: 8px;
+  width: 180px;
 }

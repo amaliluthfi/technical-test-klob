@@ -7,6 +7,7 @@ import {
   Link
 } from 'react-router-dom'
 import Home from './pages/home';
+import DetailPage from './pages/detailPage';
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
         </header>
       <div>
       <Routes>
-      <Route exact path="/" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/detail-lowongan-perkerjaan/:jobVacancyCode" element={<DetailPage />} />
         </Routes>
 
         </div>

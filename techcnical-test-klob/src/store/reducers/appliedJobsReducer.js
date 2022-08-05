@@ -1,16 +1,15 @@
 const intialState = {
     loading: false,
     err: null,
-    jobs: [],
-    job: {}
+    appliedJobs: [],
+    appliedJob: {}
  }
  
-export default function addJobs(state = intialState, action) {
+export default function appliedJobs(state = intialState, action) {
      switch (action.type) {
-             case "ADD_JOBS":
+             case "APPLIED_JOBS":
                    return { ...state, jobs: action.payload }
-           case "JOB_BY_CODE":
-            //      console.log(action.payload + " dari reducer")
+            case  "APPLIED_JOB":
                    return {...state, job: action.payload[0]}
              case "LOADING_STATUS":
                    return {...state, loading:  action.payload}

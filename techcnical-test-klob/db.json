@@ -1,6 +1,7 @@
 {
   "fakeJob": [
     {
+      "id": 1,
       "jobVacancyCode": "KVCCRP000692",
       "positionName": "ADMIN HRD",
       "corporateId": "CRP000235",
@@ -9,12 +10,16 @@
       "descriptions": "<ul>\n<li>Melakukan proses penerimaan karyawan dari proses Screening sampai Recruiting</li>\n<li>Memperbaharui dan memelihara database, catatan, dan laporan SDM dengan data karyawan yang akurat</li>\n<li>Mempersiapkan kontrak kerja untuk karyawan baru perusahaan</li>\n<li>Melakukan penyusunan absensi atau daftar hadit karyawan perusahaan</li>\n<li>Memperisapkan berbagai macam internal letter dan outgoing letter</li>\n<li>Mempersiapkan segala kebutuhan karyawan</li>\n<li>Melakukan sosialisasi dan koordinasi terhadap seluruh karyawan</li>\n</ul> <p>If you desire to be part of something special, to be part of a winning team, to be part of a fun team - winning is fun.  We are looking forward to Project Manager in CIMB Niaga, based in Jakarta, Indonesia. In CIMB Niaga, making our work exciting, engaging, meaningful; ensuring safety, health, wellness; and being a model of inclusion & diversity are already embedded in who we are - it’s in our values, part of our vision, and our clearly defined aspirational goals. The primary function of the job is managing all the project implementation and services within the country<p/>",
       "corporateLogo": "https://filesdev.klob.id/public/mco01/kzsb9qzp/2022-02-18_175846.jpg",
       "applied": false,
-      "workModel": { "id": "wt002", "text": "Hybrid" },
+      "workModel": {
+        "id": "wt002",
+        "text": "Hybrid"
+      },
       "salaryFrom": 500000,
       "salaryTo": 17500000,
       "postedDate": "01/02/2022"
     },
     {
+      "id": 2,
       "jobVacancyCode": "PROD_CRP000015-01",
       "positionName": "DB Master Staff",
       "corporateId": "PROD_CRP000015",
@@ -28,6 +33,7 @@
       "postedDate": "27/07/2020"
     },
     {
+      "id": 3,
       "jobVacancyCode": "KVCPRO000002",
       "positionName": "Staff Accounting",
       "corporateId": "PROD_CRP000009",
@@ -41,6 +47,7 @@
       "postedDate": "16/01/2020"
     },
     {
+      "id": 4,
       "jobVacancyCode": "KVCCRP000652",
       "positionName": "Frontliner",
       "corporateId": "CRP000012",
@@ -67,6 +74,7 @@
       "postedDate": "30/05/2022"
     },
     {
+      "id": 5,
       "jobVacancyCode": "KVCCRP000729",
       "positionName": "Test Loker2",
       "corporateId": "CRP000372",
@@ -80,6 +88,7 @@
       "postedDate": "03/08/2022"
     },
     {
+      "id": 6,
       "jobVacancyCode": "CRP000038_KVCCRP000370",
       "positionName": "HRD & LEGAL OFFICER",
       "corporateId": "CRP000038",
@@ -93,6 +102,7 @@
       "postedDate": "02/08/2022"
     },
     {
+      "id": 7,
       "jobVacancyCode": "KVCPROD_CRP000021",
       "positionName": "Junior 2D Artist ",
       "corporateId": "PROD_CRP000016",

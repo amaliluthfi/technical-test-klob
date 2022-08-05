@@ -6,16 +6,24 @@ function addJobs(jobs) {
        })
     }
 }
+
+function addJob(job) {
+    return function (dispatch) {
+       dispatch({
+             type: "JOB_BY_CODE",
+             payload: job
+       })
+    }
+}
  
 function fetchJobs(url) {
     return (dispatch) => {
        fetch(url)
            .then(res => {
-               console.log("ini response" + res);
              if (res.ok){
                 return res.json()
              } else {
-                return Promise.reject('something wrong: fetch pokemons')
+                return Promise.reject('something wrong: fetch jobs')
              }
           })
           .then(data => {
@@ -28,5 +36,25 @@ function fetchJobs(url) {
           })
     }
 }
+
+function fetchJobByCode(url) {
+    return (dispatch) => {
+       fetch(url)
+           .then(res => {
+             if (res.ok){
+                return res.json()
+             } else {
+                return Promise.reject('something wrong: fetch job')
+             }
+          })
+          .then(data => {
+              dispatch(addJob(data))
+              console.log(data)
+          })
+          .catch(err => {
+                return console.log(err)
+          })
+    }
+}
  
-export { fetchJobs}
+export { fetchJobs, fetchJobByCode}
